@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ActivitySection from '@/components/ActivitySection';
 import ResearchSection from '@/components/ResearchSection';
@@ -51,13 +52,16 @@ export default function HomePage() {
       <HeroSection
         onOpenContact={() => setIsContactOpen(true)}
         onExploreProjects={() => {
-          document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' });
+          document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
         }}
         theme={currentTheme}
         onThemeChange={handleThemeChange}
       />
 
-      {/* ── 02. PRODUCTION ARCHITECTURES & PROJECTS ── */}
+      {/* ── 02. EDITORIAL ABOUT & FUTURE GRID (MATCHING USER REFERENCE IMAGES 1 & 2) ── */}
+      <AboutSection />
+
+      {/* ── 03. PRODUCTION ARCHITECTURES & PROJECTS ── */}
       <ProjectsSection />
 
       {/* ── 03. CODE ACTIVITY & TELEMETRY (GITHUB, LEETCODE, CODECHEF) ── */}

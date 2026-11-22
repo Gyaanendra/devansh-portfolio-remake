@@ -46,8 +46,14 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
 
           <nav className="hidden md:flex items-center gap-10 text-[11.5px] font-mono tracking-[0.2em] uppercase font-medium">
             <button
-              onClick={() => scrollToSection('work')}
+              onClick={() => scrollToSection('about')}
               className="text-black/85 dark:text-white/85 hover:text-black dark:hover:text-white transition-colors"
+            >
+              ABOUT
+            </button>
+            <button
+              onClick={() => scrollToSection('work')}
+              className="text-black/45 dark:text-white/45 hover:text-black dark:hover:text-white transition-colors"
             >
               PROJECTS
             </button>
@@ -107,20 +113,23 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
             exit={{ opacity: 0, height: 0 }}
             className="relative z-30 w-full bg-white dark:bg-[#111114] border-b border-black/10 dark:border-white/10 px-8 py-6 flex flex-col gap-4 font-mono text-xs uppercase tracking-widest md:hidden"
           >
+            <button onClick={() => scrollToSection('about')} className="text-left py-2 hover:text-[#ff3b20]">
+              01 // ABOUT
+            </button>
             <button onClick={() => scrollToSection('work')} className="text-left py-2 hover:text-[#ff3b20]">
-              01 // PROJECTS
+              02 // PROJECTS
             </button>
             <button onClick={() => scrollToSection('research')} className="text-left py-2 hover:text-[#ff3b20]">
-              02 // RESEARCH &amp; PAPERS
+              03 // RESEARCH &amp; PAPERS
             </button>
             <button onClick={() => scrollToSection('path')} className="text-left py-2 hover:text-[#ff3b20]">
-              03 // CAREER CHRONOLOGY
+              04 // CAREER CHRONOLOGY
             </button>
             <button onClick={() => { setMenuOpen(false); onOpenContact?.(); }} className="text-left py-2 text-[#ff3b20]">
-              04 // DIRECT DISPATCH
+              05 // DIRECT DISPATCH
             </button>
             <div className="pt-2 border-t border-black/10 dark:border-white/10 flex items-center justify-between">
-              <span className="text-[10px] text-black/50 dark:text-white/50">05 // APPEARANCE</span>
+              <span className="text-[10px] text-black/50 dark:text-white/50">06 // APPEARANCE</span>
               <ThemeToggle theme={theme} onThemeChange={onThemeChange} />
             </div>
           </motion.div>
@@ -264,16 +273,16 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
                   <Image
                     src={
                       activePose === 1
-                        ? '/images/devansh-hero-cutout-1-tight.png'
-                        : '/images/devansh-hero-cutout-2-tight.png'
+                        ? '/images/devansh-hero-cutout-1-tight-bw.png'
+                        : '/images/devansh-hero-cutout-2-tight-bw.png'
                     }
                     alt="Devansh Kumar — Systems Architecture & Applied ML"
                     width={893}
                     height={707}
                     priority
-                    className="h-full w-auto object-contain object-bottom drop-shadow-[0_24px_48px_rgba(0,0,0,0.4)]"
+                    className="h-full w-auto object-contain object-bottom drop-shadow-[0_24px_48px_rgba(0,0,0,0.45)] grayscale contrast-[1.12]"
                     style={{
-                      filter: 'contrast(1.05) brightness(1.02)',
+                      filter: 'grayscale(100%) contrast(1.15) brightness(1.0)',
                     }}
                   />
                 </motion.div>
