@@ -1,0 +1,85 @@
+{
+  "github": {
+    "username": "devantaris",
+    "profileUrl": "https://github.com/devantaris",
+    "annualContributions": 897,
+    "publicRepos": 18,
+    "yearsActive": "2+",
+    "citations": "15+",
+    "datasetPath": "/data/github-contributions.json",
+    "languages": [
+      { "name": "TypeScript", "pct": 39 },
+      { "name": "C++", "pct": 17 },
+      { "name": "Python", "pct": 11 },
+      { "name": "Dart", "pct": 11 },
+      { "name": "HTML", "pct": 11 },
+      { "name": "JavaScript", "pct": 6 },
+      { "name": "Java", "pct": 5 }
+    ]
+  },
+  "leetcode": {
+    "username": "vantaris",
+    "profileUrl": "https://leetcode.com/u/vantaris/",
+    "solved": 37,
+    "easy": 23,
+    "medium": 12,
+    "hard": 2,
+    "activeDays": 20,
+    "maxStreak": "7-Day",
+    "tags": ["Algorithms", "Data Structures", "Python", "C++", "Optimization"]
+  },
+  "codechef": {
+    "handle": "s24cseu0828",
+    "profileUrl": "https://www.codechef.com/users/s24cseu0828",
+    "rating": 1414,
+    "highestRating": 1445,
+    "stars": 2,
+    "starsStr": "★★",
+    "division": "Div 3",
+    "globalRank": 1282,
+    "lastContest": {
+      "name": "Starters 265 (Rated)",
+      "rank": 1521,
+      "code": "START265C"
+    },
+    "datasetPath": "/data/codechef.json",
+    "tags": ["Competitive", "Division 3", "Starters", "Math", "Greedy"]
+  },
+  "architecturalMetrics": [
+    {
+      "value": "0.9851",
+      "label": "ROC-AUC",
+      "detail": "MARI Staged Decisioning Framework"
+    },
+    {
+      "value": "284K+",
+      "label": "Transactions Routed",
+      "detail": "Production Staged Fraud Engine"
+    },
+    {
+      "value": "7/7",
+      "label": "Attacks Blocked",
+      "detail": "CryptoFlow Threat Simulator"
+    },
+    {
+      "value": "100+",
+      "label": "Engineers Led",
+      "detail": "IEEE Student Branch Chairperson"
+    },
+    {
+      "value": "100%",
+      "label": "DECLINE Precision",
+      "detail": "Zero False Positive Blocks"
+    },
+    {
+      "value": "120+ MB/s",
+      "label": "Encryption Throughput",
+      "detail": "Multimodal Medical DICOM Pipeline"
+    },
+    {
+      "value": "8.75 / 10.0",
+      "label": "Academic CGPA",
+      "detail": "Bennett University B.Tech CSE"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "buildit",
+    "role": "Software Developer Intern",
+    "company": "BUILDIT SERVICE",
+    "location": "Gurugram, Haryana",
+    "period": "Mar 2026 – Present",
+    "timelineRange": "Mar 2026 — Jun 2026",
+    "type": "Internship",
+    "current": true,
+    "summary": "Lead-gen automation and REST integrations processing 500+ leads/week, SQL dashboards with Python/PostgreSQL, client-facing web applications across agile sprints.",
+    "points": [
+      "Built lead generation automation pipelines and REST API integrations processing 500+ leads/week.",
+      "Developed internal dashboards with SQL-driven analytics using Python and PostgreSQL.",
+      "Shipped client-facing web applications across agile sprint cycles with continuous integration."
+    ],
+    "technologies": ["Python", "PostgreSQL", "FastAPI", "SQL", "REST APIs", "Automation"]
+  },
+  {
+    "id": "raahi",
+    "role": "Application Developer (Flutter)",
+    "company": "RAAHI",
+    "location": "Noida, Uttar Pradesh",
+    "period": "Oct 2025 – Mar 2026",
+    "timelineRange": "Oct 2025 — Mar 2026",
+    "type": "Engineering",
+    "current": false,
+    "summary": "Cross-platform Flutter app with BLoC state management, secure auth, and SQLite persistence. Shipped 4+ sprint releases. 60fps on 120Hz displays via RepaintBoundary isolation.",
+    "points": [
+      "Delivered a production cross-platform mobile app (iOS, Android, Web) with BLoC state management, secure auth, and SQLite persistence.",
+      "Shipped 4+ sprint releases in a lean team following full SDLC practices and rigorous testing.",
+      "Architected SQLite WAL mode caching for sub-800ms cold launches and 60fps frame rate budgets on 120Hz displays via RepaintBoundary isolation."
+    ],
+    "technologies": ["Flutter", "Dart", "BLoC", "SQLite", "REST APIs", "Telemetry"]
+  },
+  {
+    "id": "ieee-chair",
+    "role": "Student Branch Chairperson",
+    "company": "IEEE STUDENT BRANCH, BENNETT UNIVERSITY",
+    "location": "Greater Noida, Uttar Pradesh",
+    "period": "Sep 2025 – Aug 2026",
+    "timelineRange": "Sep 2025 — Aug 2026",
+    "type": "Leadership",
+    "current": false,
+    "summary": "Led 100+ member branch. Secured ₹1.48L+ in sponsorships. Organised Global AI Summit 2.0 (3,000–4,000+ attendees) and Triverse 3.0 (600+ participants). 3rd place IEEE UP Best Emerging Branch 2025.",
+    "points": [
+      "Led 100+ member branch across technical tracks, software engineering divisions, and flagship initiatives.",
+      "Secured ₹1.48L+ in sponsorships through structured partnership outreach and corporate proposals.",
+      "Organised Global AI Summit 2.0 (3,000–4,000+ attendees) and Triverse 3.0 (600+ participants).",
+      "Led branch to 3rd place — IEEE UP Section Best Emerging Student Branch Award 2025."
+    ],
+    "achievements": [
+      "3rd Place — IEEE UP Section Best Emerging Student Branch Award 2025",
+      "₹1.48L+ sponsorships secured",
+      "Flagship Global AI Summit 2.0 (3,000-4,000+ attendees)",
+      "Triverse 3.0 Hackathon (600+ participants)"
+    ],
+    "technologies": ["Leadership", "Team Governance", "Strategic Planning", "Event Orchestration"]
+  },
+  {
+    "id": "education",
+    "role": "B.Tech — Computer Science & Engineering (CGPA 8.75)",
+    "company": "BENNETT UNIVERSITY",
+    "location": "Greater Noida, Uttar Pradesh",
+    "period": "Aug 2024 – Aug 2028",
+    "timelineRange": "2024 — 2028",
+    "type": "Education",
+    "current": true,
+    "summary": "CGPA 8.75 / 10.0. IBM ML Professional Certificate (Feb 2026). FastAPI & Backend Development Specialization. Core: DSA, DBMS, OS, Computer Networks.",
+    "points": [
+      "B.Tech CSE with 8.75 / 10.0 CGPA; focused on systems design, algorithms, high-throughput backend services, and applied machine learning.",
+      "Core Coursework: Data Structures & Algorithms, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating Systems (OS), Computer Networks (CN), Software Engineering.",
+      "Secondary School: Sunbeam School Varuna, Varanasi — Grade 10: 95% | Grade 12: 89% (Physics, Chemistry & Mathematics)."
+    ],
+    "technologies": ["Data Structures", "Algorithms", "Operating Systems", "DBMS", "Computer Networks", "System Design"]
+  }
+]

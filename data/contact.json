@@ -1,0 +1,74 @@
+{
+  "recipientEmail": "work.devanshkumar@gmail.com",
+  "phone": "+91 7007484933",
+  "location": "Greater Noida, Uttar Pradesh, India",
+  "endpoint": "https://formsubmit.co/ajax/work.devanshkumar@gmail.com",
+  "fallbackMailto": "mailto:work.devanshkumar@gmail.com",
+  "modalTitle": "SYS://CONTACT — DIRECT DISPATCH",
+  "modalSubtitle": "Send a message directly to work.devanshkumar@gmail.com. Every transmission goes straight to my inbox.",
+  "formFields": [
+    {
+      "name": "name",
+      "label": "YOUR NAME / ORG",
+      "type": "text",
+      "placeholder": "Jane Doe",
+      "required": true,
+      "autoComplete": "name"
+    },
+    {
+      "name": "email",
+      "label": "EMAIL ADDRESS",
+      "type": "email",
+      "placeholder": "jane@company.com",
+      "required": true,
+      "autoComplete": "email"
+    },
+    {
+      "name": "subject",
+      "label": "SYSTEM TOPIC",
+      "type": "text",
+      "placeholder": "High-Throughput Architecture / Role Inquiry",
+      "required": false
+    },
+    {
+      "name": "message",
+      "label": "TRANSMISSION PAYLOAD",
+      "type": "textarea",
+      "placeholder": "Detail requirements, latency thresholds, or meeting coordinates...",
+      "required": true,
+      "rows": 4
+    }
+  ],
+  "statusCopy": {
+    "idleButton": "TRANSMIT MESSAGE →",
+    "submittingButton": "TRANSMITTING …",
+    "success": "✓ Message transmitted directly to Devansh (work.devanshkumar@gmail.com). You will hear back shortly.",
+    "errorFallback": "Network notice: Opening your default email client to finish dispatch."
+  },
+  "directChannels": [
+    {
+      "type": "email",
+      "label": "Email",
+      "value": "work.devanshkumar@gmail.com",
+      "href": "mailto:work.devanshkumar@gmail.com"
+    },
+    {
+      "type": "linkedin",
+      "label": "LinkedIn",
+      "value": "devansh-kumar-3b3701217",
+      "href": "https://linkedin.com/in/devansh-kumar-3b3701217"
+    },
+    {
+      "type": "github",
+      "label": "GitHub",
+      "value": "devantaris",
+      "href": "https://github.com/devantaris"
+    },
+    {
+      "type": "phone",
+      "label": "Phone",
+      "value": "+91 7007484933",
+      "href": "tel:+917007484933"
+    }
+  ]
+}

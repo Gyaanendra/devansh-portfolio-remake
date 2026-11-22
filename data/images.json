@@ -1,0 +1,44 @@
+{
+  "portrait": {
+    "src": "/images/devansh-portrait.webp",
+    "alt": "Devansh Kumar — Systems & Backend Engineer, B.Tech CSE at Bennett University",
+    "width": 800,
+    "height": 800,
+    "caption": "BENNETT UNIV // CGPA 8.75",
+    "usage": "Hero, Profile and About sections"
+  },
+  "award": {
+    "src": "/images/devansh-award.webp",
+    "alt": "Devansh Kumar receiving IEEE UP Section Best Emerging Student Branch Award 2025",
+    "width": 1200,
+    "height": 800,
+    "caption": "3rd Place — IEEE UP Section Best Emerging Student Branch Award 2025",
+    "usage": "Leadership, Experience and Milestone displays"
+  },
+  "ogImage": {
+    "src": "/images/og-image.jpg",
+    "alt": "Devansh Kumar — DEVANTARIS Portfolio Preview",
+    "width": 1200,
+    "height": 630,
+    "caption": "Devansh Kumar · Systems Architecture · Applied ML",
+    "usage": "OpenGraph social preview and SEO metadata"
+  },
+  "documents": {
+    "resumePdf": {
+      "src": "/resume.pdf",
+      "title": "Devansh Kumar Resume (PDF)",
+      "filename": "Devansh_Kumar_Resume.pdf"
+    },
+    "resumeDocx": {
+      "src": "/resume.docx",
+      "title": "Devansh Kumar Resume (DOCX)",
+      "filename": "Devansh_Kumar_Resume.docx"
+    }
+  },
+  "icons": {
+    "favicon": {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  }
+}

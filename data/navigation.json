@@ -1,0 +1,110 @@
+{
+  "sheets": [
+    {
+      "sheet": "01",
+      "id": "hero",
+      "name": "Index & System Identity",
+      "title": "Index / Devantaris",
+      "subtitle": "06 sheets · 1 engineer · rev 2026.D",
+      "scale": "Scale 1:1"
+    },
+    {
+      "sheet": "02",
+      "id": "work",
+      "name": "Selected Work",
+      "title": "Built, tested, shipped.",
+      "subtitle": "Production Systems & ML Architectures"
+    },
+    {
+      "sheet": "03",
+      "id": "code-activity",
+      "name": "Code Activity",
+      "title": "Committed, rated, ranked.",
+      "subtitle": "GitHub, LeetCode & CodeChef Live Telemetry"
+    },
+    {
+      "sheet": "04",
+      "id": "research",
+      "name": "Research & Publications",
+      "title": "Revisions issued.",
+      "subtitle": "Manuscripts, Reviews, Books & Accreditations"
+    },
+    {
+      "sheet": "05",
+      "id": "path",
+      "name": "Career Path",
+      "title": "Shipping while leading.",
+      "subtitle": "Engineering Roles, Leadership & Education"
+    },
+    {
+      "sheet": "06",
+      "id": "contact",
+      "name": "Contact Matrix",
+      "title": "Let's build something that holds.",
+      "subtitle": "Direct Dispatch & Telemetry Channels"
+    }
+  ],
+  "menuItems": [
+    { "number": "01", "name": "ABOUT & PROFILE", "href": "#about" },
+    { "number": "02", "name": "FEATURED PROJECTS", "href": "#work" },
+    { "number": "03", "name": "CODE ACTIVITY", "href": "#code-activity" },
+    { "number": "04", "name": "PUBLICATIONS & RESEARCH", "href": "#research" },
+    { "number": "05", "name": "CAREER CHRONOLOGY", "href": "#path" },
+    { "number": "06", "name": "CONTACT & DISPATCH", "href": "#contact" },
+    {
+      "number": "07",
+      "name": "LIVE RESUME ↗",
+      "href": "https://devantaris.github.io",
+      "external": true
+    }
+  ],
+  "footer": {
+    "brand": {
+      "name": "DEVANSH KUMAR",
+      "tagline": "Systems Architecture · Applied ML",
+      "subtitle": "B.Tech CSE · Bennett Univ · Rev 2026.D"
+    },
+    "columns": {
+      "work": {
+        "title": "Work",
+        "links": [
+          { "label": "MARI Engine", "href": "https://mari-alpha.vercel.app", "external": true },
+          { "label": "EduSupervision", "href": "https://edu-supervision.vercel.app", "external": true },
+          { "label": "CryptoFlow", "href": "https://github.com/devantaris/cryptoflow", "external": true },
+          { "label": "SatyaLabel", "href": "https://github.com/devantaris/SatyaLabel", "external": true }
+        ]
+      },
+      "signals": {
+        "title": "Signals",
+        "links": [
+          { "label": "GitHub · @devantaris", "href": "https://github.com/devantaris", "external": true },
+          { "label": "LeetCode · @vantaris", "href": "https://leetcode.com/u/vantaris/", "external": true },
+          { "label": "CodeChef · 2★", "href": "https://www.codechef.com/users/s24cseu0828", "external": true },
+          { "label": "Google Scholar", "href": "https://scholar.google.com/citations?user=K6k6CfcAAAAJ&hl=en", "external": true }
+        ]
+      },
+      "sheets": {
+        "title": "Sheets",
+        "links": [
+          { "label": "01 — Index", "href": "#hero" },
+          { "label": "02 — Work", "href": "#work" },
+          { "label": "03 — Activity", "href": "#code-activity" },
+          { "label": "04 — Research", "href": "#research" },
+          { "label": "05 — Path", "href": "#path" },
+          { "label": "06 — Contact", "href": "#contact" }
+        ]
+      },
+      "direct": {
+        "title": "Direct",
+        "links": [
+          { "label": "Dispatch ↗", "action": "openContactModal" },
+          { "label": "Email", "href": "mailto:work.devanshkumar@gmail.com" },
+          { "label": "LinkedIn", "href": "https://linkedin.com/in/devansh-kumar-3b3701217", "external": true },
+          { "label": "ORCID", "href": "https://orcid.org/0009-0008-0687-5963", "external": true },
+          { "label": "Resume ↗", "href": "https://devantaris.github.io", "external": true }
+        ]
+      }
+    },
+    "copyright": "© 2026 Devansh Kumar · Greater Noida, India"
+  }
+}
