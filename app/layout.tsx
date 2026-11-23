@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import SmoothScroll from "@/components/SmoothScroll";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -49,7 +50,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="min-h-full flex flex-col bg-[#f7f7f8] dark:bg-[#0c0c0e] text-[#111114] dark:text-[#f3f4f6]" suppressHydrationWarning>
-        {children}
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
       </body>
     </html>
   );

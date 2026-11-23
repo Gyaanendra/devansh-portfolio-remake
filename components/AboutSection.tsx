@@ -7,7 +7,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="relative w-full py-16 sm:py-24 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto select-none"
+      className="relative w-full py-16 sm:py-24 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto"
     >
       {/* ── 02. CORE EDITORIAL COMPOSITION (FUSING IMAGE 1 & IMAGE 2 DIRECTLY ON THE CANVAS) ── */}
       <div className="w-full grid grid-cols-1 lg:grid-cols-12">

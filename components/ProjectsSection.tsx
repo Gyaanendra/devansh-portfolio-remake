@@ -48,7 +48,7 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <section id="work" className="relative w-full py-20 sm:py-28 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto select-none">
+    <section id="work" className="relative w-full py-20 sm:py-28 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto">
       
       {/* ── 01. SECTION HEADER WITH CORAL '+' MARKERS ── */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 mb-16 sm:mb-20">

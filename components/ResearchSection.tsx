@@ -7,7 +7,7 @@ import { publications } from '@/data';
 
 export default function ResearchSection() {
   return (
-    <section id="research" className="relative w-full py-20 sm:py-28 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto select-none">
+    <section id="research" className="relative w-full py-20 sm:py-28 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto">
       
       {/* ── 01. EDITORIAL HEADER WITH CORAL '+' MARKERS (Reference Match) ── */}
       <div className="mb-12 sm:mb-16">

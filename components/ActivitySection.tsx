@@ -126,7 +126,7 @@ export default function ActivitySection({ onOpenContact }: ActivitySectionProps)
   return (
     <section
       id="code-activity"
-      className="relative w-full py-16 sm:py-24 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto select-none"
+      className="relative w-full py-16 sm:py-24 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto"
     >
       {/* ── FLOATING BRUTALIST TOOLTIP ── */}
       {tooltip.visible && tooltip.text && (

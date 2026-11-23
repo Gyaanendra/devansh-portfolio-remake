@@ -37,7 +37,7 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
   };
 
   return (
-    <section className="relative w-full min-h-screen bg-[#f7f7f8] dark:bg-[#0c0c0e] text-[#111114] dark:text-[#f3f4f6] flex flex-col justify-between overflow-hidden transition-colors duration-500 select-none">
+    <section className="relative w-full min-h-screen bg-[#f7f7f8] dark:bg-[#0c0c0e] text-[#111114] dark:text-[#f3f4f6] flex flex-col justify-between overflow-hidden transition-colors duration-500">
       
       {/* ── TOP EDITORIAL HEADER (Exact Reference Match) ── */}
       <header className="relative z-40 w-full px-6 sm:px-10 lg:px-14 pt-8 pb-4 flex items-center justify-between">
