@@ -78,6 +78,7 @@ export default function NotFoundPage() {
             alt="Physical Hardcover Open Journal Book Mockup"
             fill
             priority
+            sizes="(max-width: 768px) 100vw, (max-width: 1400px) 95vw, 1360px"
             className="object-cover pointer-events-none select-none"
           />
 
@@ -163,6 +164,7 @@ export default function NotFoundPage() {
                   src="/images/butterfly-specimen.png"
                   alt="Papilio Architectonica Butterfly Specimen"
                   fill
+                  sizes="(max-width: 640px) 192px, (max-width: 1024px) 224px, 288px"
                   className="object-contain"
                 />
               </div>
@@ -182,6 +184,7 @@ export default function NotFoundPage() {
                       src="/images/devansh-about-bw.webp"
                       alt="Devansh Kumar Architect"
                       fill
+                      sizes="(max-width: 1024px) 60px, 72px"
                       className="object-cover"
                     />
                   </div>
@@ -194,6 +197,7 @@ export default function NotFoundPage() {
                   src="/images/pressed-leaf-specimen.png"
                   alt="Pressed Ginkgo Leaf Specimen"
                   fill
+                  sizes="(max-width: 1024px) 64px, 80px"
                   className="object-contain opacity-80"
                 />
               </div>
@@ -378,6 +382,7 @@ export default function NotFoundPage() {
                     src="/images/butterfly-specimen.png"
                     alt="Papilio Architectonica Butterfly Specimen"
                     fill
+                    sizes="(max-width: 640px) 208px, 250px"
                     className="object-contain"
                   />
                 </div>
@@ -394,6 +399,7 @@ export default function NotFoundPage() {
                       src="/images/devansh-about-bw.webp"
                       alt="Devansh Kumar Architect"
                       fill
+                      sizes="64px"
                       className="object-cover"
                     />
                   </div>

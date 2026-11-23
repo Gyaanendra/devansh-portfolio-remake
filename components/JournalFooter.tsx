@@ -168,6 +168,7 @@ export default function JournalFooter({ onOpenContact, theme, onThemeChange }: J
                         src="/images/devansh-about-bw.webp"
                         alt="Devansh Kumar - Architect"
                         fill
+                        sizes="(max-width: 640px) 80px, 88px"
                         className="object-cover grayscale contrast-125"
                       />
                     </div>
@@ -282,6 +283,7 @@ export default function JournalFooter({ onOpenContact, theme, onThemeChange }: J
                         src="/images/devansh-award.webp"
                         alt="Devansh Kumar - Commendation Plate"
                         fill
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 300px"
                         className="object-cover grayscale contrast-125 group-hover:scale-105 transition-transform duration-300"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
