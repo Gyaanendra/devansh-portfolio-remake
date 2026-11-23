@@ -134,103 +134,145 @@ export default function AboutSection() {
         </div>
       </div>
 
-      {/* ── 03. CHRONOLOGICAL TIMELINE (EXACT REFERENCE IMAGE 2 BOTTOM HALF) ── */}
+      {/* ── 03. CHRONOLOGICAL TIMELINE (ENGINEERING PROGRESSION & MILESTONES) ── */}
       <div className="w-full pt-16 sm:pt-20">
 
-        {/* Timeline Header (Image 2 Exact Layout) */}
+        {/* Timeline Header */}
         <div className="flex flex-col sm:flex-row items-start sm:items-baseline justify-between gap-3 pb-6 border-b border-black/15 dark:border-white/15 mb-10">
           <div>
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="w-2 h-2 rounded-full bg-[#ff3b20]" />
+              <span className="font-mono text-xs font-bold tracking-[0.2em] text-[#ff3b20] uppercase">
+                02.B // PROGRESSIVE MILESTONES
+              </span>
+            </div>
             <h3 className="text-3xl sm:text-4xl font-black text-black dark:text-white uppercase tracking-tight">
-              TIMELINE
+              ENGINEERING TIMELINE
             </h3>
-            <p className="font-mono text-xs sm:text-[13px] text-black/55 dark:text-white/55 mt-2 max-w-xl">
-              Based on verified engineering execution, institutional leadership, and peer-reviewed ML research pipelines.
+            <p className="font-mono text-xs sm:text-[13px] text-black/60 dark:text-white/60 mt-2 max-w-2xl leading-relaxed">
+              A deterministic trajectory spanning foundational computer science, executive governance, first-author ML research, and production distributed systems.
             </p>
           </div>
-          <span className="font-mono text-[10px] uppercase tracking-widest text-[#ff3b20] font-bold">
-            TYPICALLY, ACTIVE STAGES ITERATE SUB-100MS // 4 PHASES
-          </span>
+          <div className="flex items-center gap-2 px-3 py-1.5 rounded-xs bg-[#ff3b20]/10 border border-[#ff3b20]/30 font-mono text-[10.5px] text-[#ff3b20] font-bold uppercase tracking-wider">
+            <span>4 PROGRESSIVE TIERS // 2024 — 2028</span>
+          </div>
         </div>
 
-        {/* 4-Stage Stair-Step Grid with Red Horizontal Level Bars (Image 2 Exact Match) */}
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x divide-black/15 dark:divide-white/15 min-h-[220px]">
+        {/* 4-Stage Progressive Stair-Step Grid */}
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x divide-black/15 dark:divide-white/15 min-h-[250px]">
 
-          {/* Phase 01: Low Step Bar */}
+          {/* Phase 01: Foundations & Core CS */}
           <div className="flex flex-col justify-between pr-0 lg:pr-8">
             <div>
-              <span className="font-mono text-xs text-black/40 dark:text-white/40 block mb-2">01</span>
-              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-2">
-                CREATIVE CONCEPT &amp; CORE CS
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-mono text-xs font-bold text-black/40 dark:text-white/40">01</span>
+                <span className="font-mono text-[9.5px] uppercase px-2 py-0.5 border border-black/15 dark:border-white/15 text-black/60 dark:text-white/60">
+                  2024 — 2028
+                </span>
+              </div>
+              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-1.5">
+                FOUNDATIONS &amp; CORE CS
               </h4>
-              <p className="font-sans text-xs text-black/60 dark:text-white/60 leading-relaxed">
-                Discrete math, data structures, and algorithmic foundations. Bennett University (CGPA 8.75).
+              <div className="text-[11px] font-mono text-[#ff3b20] mb-2 font-semibold uppercase">
+                Bennett University · CGPA 8.75
+              </div>
+              <p className="font-sans text-xs text-black/65 dark:text-white/65 leading-relaxed">
+                Rigorous grounding in discrete mathematics, data structures, operating systems, and memory-bounded algorithms. 300+ LeetCode problems solved.
               </p>
             </div>
-            {/* Step Line 1 (Lowest Level) */}
+            {/* Step Line 1 (Baseline Elevation) */}
             <div className="mt-8">
               <div className="w-full h-1 bg-[#ff3b20]" />
-              <div className="font-mono text-[10px] text-black/40 dark:text-white/40 uppercase tracking-widest mt-2">
-                FOUNDATION (2024 — 2028)
+              <div className="flex items-center justify-between font-mono text-[10px] text-black/45 dark:text-white/45 uppercase tracking-widest mt-2">
+                <span>TIER 01: THEORY</span>
+                <span className="font-bold text-black dark:text-white">ACADEMIC BASE</span>
               </div>
             </div>
           </div>
 
-          {/* Phase 02: Medium-Low Step Bar (Higher) */}
+          {/* Phase 02: Institutional Leadership */}
           <div className="flex flex-col justify-between px-0 lg:px-8">
             <div>
-              <span className="font-mono text-xs text-black/40 dark:text-white/40 block mb-2">02</span>
-              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-2">
-                FULL IEEE SB DEVELOPMENT
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-mono text-xs font-bold text-black/40 dark:text-white/40">02</span>
+                <span className="font-mono text-[9.5px] uppercase px-2 py-0.5 border border-black/15 dark:border-white/15 text-black/60 dark:text-white/60">
+                  2025 — 2026
+                </span>
+              </div>
+              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-1.5">
+                INSTITUTIONAL GOVERNANCE
               </h4>
-              <p className="font-sans text-xs text-black/60 dark:text-white/60 leading-relaxed">
-                Executive Chairperson leading 100+ members. ₹1.48L+ sponsorships. 3rd Place IEEE UP Section Award.
+              <div className="text-[11px] font-mono text-[#ff3b20] mb-2 font-semibold uppercase">
+                IEEE Student Branch Chairperson
+              </div>
+              <p className="font-sans text-xs text-black/65 dark:text-white/65 leading-relaxed">
+                Led 100+ member engineering branch. Secured ₹1.48L+ sponsorships, executed Global AI Summit 2.0 (3.5K+ attendees), and won IEEE UP 3rd Best Branch Award.
               </p>
             </div>
-            {/* Step Line 2 (Stepped Up) */}
+            {/* Step Line 2 (Elevated Bar) */}
             <div className="mt-8 mb-4 sm:mb-6">
               <div className="w-full h-1.5 bg-[#ff3b20]" />
-              <div className="font-mono text-[10px] text-black/40 dark:text-white/40 uppercase tracking-widest mt-2">
-                LEADERSHIP (2-4 WEEKS / RECURRING)
+              <div className="flex items-center justify-between font-mono text-[10px] text-black/45 dark:text-white/45 uppercase tracking-widest mt-2">
+                <span>TIER 02: LEADERSHIP</span>
+                <span className="font-bold text-black dark:text-white">100+ ENGINEERS</span>
               </div>
             </div>
           </div>
 
-          {/* Phase 03: Medium-High Step Bar (Higher) */}
+          {/* Phase 03: ML Research & Publications */}
           <div className="flex flex-col justify-between px-0 lg:px-8">
             <div>
-              <span className="font-mono text-xs text-black/40 dark:text-white/40 block mb-2">03</span>
-              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-2">
-                RESEARCH DELIVERABLES
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-mono text-xs font-bold text-black/40 dark:text-white/40">03</span>
+                <span className="font-mono text-[9.5px] uppercase px-2 py-0.5 border border-black/15 dark:border-white/15 text-black/60 dark:text-white/60">
+                  2025 — 2026
+                </span>
+              </div>
+              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-1.5">
+                PEER-REVIEWED ML RESEARCH
               </h4>
-              <p className="font-sans text-xs text-black/60 dark:text-white/60 leading-relaxed">
-                First-author manuscript targeting IEEE TDSC. Staged uncertainty-aware fraud decisioning engine.
+              <div className="text-[11px] font-mono text-[#ff3b20] mb-2 font-semibold uppercase">
+                First Author · IEEE TDSC Target
+              </div>
+              <p className="font-sans text-xs text-black/65 dark:text-white/65 leading-relaxed">
+                Architected MARI staged uncertainty framework with Dempster-Shafer fusion &amp; SHAP. Co-authored published astrophysics book <em>Simply Universe</em> and gait survey.
               </p>
             </div>
-            {/* Step Line 3 (Stepped Up Higher) */}
+            {/* Step Line 3 (Higher Elevation) */}
             <div className="mt-8 mb-8 sm:mb-12">
               <div className="w-full h-2 bg-[#ff3b20]" />
-              <div className="font-mono text-[10px] text-black/40 dark:text-white/40 uppercase tracking-widest mt-2">
-                RESEARCH MILESTONE (1 WEEK)
+              <div className="flex items-center justify-between font-mono text-[10px] text-black/45 dark:text-white/45 uppercase tracking-widest mt-2">
+                <span>TIER 03: RESEARCH</span>
+                <span className="font-bold text-black dark:text-white">FIRST AUTHOR</span>
               </div>
             </div>
           </div>
 
-          {/* Phase 04: Highest Step Bar (Top Level) */}
+          {/* Phase 04: Production Systems & Deployment */}
           <div className="flex flex-col justify-between pl-0 lg:pl-8">
             <div>
-              <span className="font-mono text-xs text-black/40 dark:text-white/40 block mb-2">04</span>
-              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-2">
+              <div className="flex items-center justify-between mb-3">
+                <span className="font-mono text-xs font-bold text-black/40 dark:text-white/40">04</span>
+                <span className="font-mono text-[9.5px] uppercase px-2 py-0.5 bg-[#ff3b20]/10 text-[#ff3b20] font-bold border border-[#ff3b20]/30">
+                  2026 — PRESENT
+                </span>
+              </div>
+              <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-black dark:text-white mb-1.5">
                 PRODUCTION APPLICATIONS
               </h4>
-              <p className="font-sans text-xs text-black/60 dark:text-white/60 leading-relaxed">
-                Deployed architectures: FastAPI REST endpoints, Docker Compose, pgvector, and Redis pipelines.
+              <div className="text-[11px] font-mono text-[#ff3b20] mb-2 font-semibold uppercase">
+                Software Developer (BuildIt &amp; Raahi)
+              </div>
+              <p className="font-sans text-xs text-black/65 dark:text-white/65 leading-relaxed">
+                Deployed FastAPI lead-gen pipelines (500+ leads/wk) and PostgreSQL analytics. Architected Flutter mobile app with SQLite WAL mode for sub-800ms cold boots.
               </p>
             </div>
-            {/* Step Line 4 (Highest Level) */}
+            {/* Step Line 4 (Highest Elevation) */}
             <div className="mt-8 mb-12 sm:mb-16">
               <div className="w-full h-2.5 bg-[#ff3b20]" />
-              <div className="font-mono text-[10px] text-[#ff3b20] font-bold uppercase tracking-widest mt-2">
-                ACTIVE DEPLOYMENT (1-2 WEEKS)
+              <div className="flex items-center justify-between font-mono text-[10px] text-[#ff3b20] font-bold uppercase tracking-widest mt-2">
+                <span>TIER 04: SHIPPING</span>
+                <span>ACTIVE PIPELINES</span>
               </div>
             </div>
           </div>
