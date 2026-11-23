@@ -7,24 +7,10 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="relative w-full py-16 sm:py-24 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto border-t border-black/[0.08] dark:border-white/[0.08] select-none"
+      className="relative w-full py-16 sm:py-24 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto select-none"
     >
-      {/* ── 01. TECHNICAL METADATA HEADER (Matching Reference Image 2 Top) ── */}
-      <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 mb-8 border-b border-black/10 dark:border-white/10 font-mono text-[10.5px] uppercase tracking-widest text-black/50 dark:text-white/50">
-        <div className="flex flex-wrap items-center gap-3 font-semibold text-[#ff3b20]">
-          <span>(SYSTEMS ARCHITECTURE)</span>
-          <span>(APPLIED ML DECISIONING)</span>
-          <span>(CRYPTOGRAPHIC INFRASTRUCTURE)</span>
-        </div>
-        <div className="flex items-center gap-4">
-          <span className="text-black dark:text-white font-bold">01 // ABOUT DEVANSH KUMAR</span>
-          <span>|</span>
-          <span>BENNETT UNIV // 2026.D</span>
-        </div>
-      </div>
-
       {/* ── 02. CORE EDITORIAL COMPOSITION (FUSING IMAGE 1 & IMAGE 2 DIRECTLY ON THE CANVAS) ── */}
-      <div className="w-full grid grid-cols-1 lg:grid-cols-12 border-b border-black/15 dark:border-white/15">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-12">
         
         {/* ── LEFT COLUMN: MULTI-LAYER PORTRAIT STACK (EXACT IMAGE 1 & 2 LAYERING) ── */}
         <div className="lg:col-span-5 relative w-full aspect-[4/5] sm:aspect-[1/1] lg:aspect-auto lg:min-h-[660px] flex items-end justify-center overflow-hidden">
@@ -37,13 +23,9 @@ export default function AboutSection() {
 
           {/* Layer 2: White / Canvas Architectural Block in Top-Left (Exact Reference Match) */}
           <div
-            className="absolute top-0 left-0 w-28 sm:w-36 lg:w-44 h-28 sm:h-36 lg:h-44 bg-[#f7f7f8] dark:bg-[#0c0c0e] border-b border-r border-black/15 dark:border-white/15 z-10 flex items-center justify-center"
+            className="absolute top-0 left-0 w-28 sm:w-36 lg:w-44 h-28 sm:h-36 lg:h-44 bg-[#f7f7f8] dark:bg-[#0c0c0e] border-b border-r border-black/15 dark:border-white/15 z-10"
             aria-hidden="true"
-          >
-            <span className="font-mono text-[10px] tracking-widest uppercase text-black/40 dark:text-white/40">
-              SPEC // 01
-            </span>
-          </div>
+          />
 
           {/* Layer 3: High-Contrast Black & White Grayscale Cutout of Devansh (Exact Reference Match) */}
           <div className="relative z-20 w-full h-full flex items-end justify-center pointer-events-none">
@@ -96,9 +78,6 @@ export default function AboutSection() {
                   First-author of the MARI fraud framework targeting IEEE TDSC. Multi-stage uncertainty-aware architecture routing 284,807 transactions with 100% DECLINE precision and 86.73% recall at sub-100ms latency.
                 </p>
               </div>
-              <div className="mt-4 pt-3 border-t border-black/[0.08] dark:border-white/[0.08] font-mono text-[9.5px] uppercase tracking-widest text-[#ff3b20] font-bold">
-                IEEE TDSC RESEARCH // IN REVIEW
-              </div>
             </div>
 
             {/* Column 2: Innovating For The / Leadership */}
@@ -110,9 +89,6 @@ export default function AboutSection() {
                 <p className="font-sans text-xs leading-relaxed text-black/75 dark:text-white/75 font-normal text-justify">
                   Outgoing Chairperson of IEEE Student Branch (Bennett University, 2025–26). Directed a 100+ member vertical structure, secured ₹1.48L+ sponsorships, and led Global AI Summit 2.0 (3,500+ attendees).
                 </p>
-              </div>
-              <div className="mt-4 pt-3 border-t border-black/[0.08] dark:border-white/[0.08] font-mono text-[9.5px] uppercase tracking-widest text-black/50 dark:text-white/50">
-                3RD PLACE IEEE UP BEST BRANCH 2025
               </div>
             </div>
           </div>

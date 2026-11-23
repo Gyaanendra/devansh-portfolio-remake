@@ -36,12 +36,12 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <section id="work" className="relative w-full py-24 sm:py-32 px-6 sm:px-10 lg:px-16 max-w-[1720px] mx-auto border-t border-black/[0.08] dark:border-white/[0.08]">
+    <section id="work" className="relative w-full py-24 sm:py-32 px-6 sm:px-10 lg:px-16 max-w-[1720px] mx-auto">
       {/* Section Header */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 mb-16">
         <div>
           <span className="font-mono text-xs tracking-widest text-[#ff3b20] font-bold uppercase">
-            02 // SELECTED WORK — PRODUCTION ARCHITECTURES
+            SELECTED WORK
           </span>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-black dark:text-white mt-3 uppercase">
             Built, tested, shipped.

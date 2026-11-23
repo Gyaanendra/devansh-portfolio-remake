@@ -105,7 +105,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 onClick={copyEmail}
                 className="flex items-center gap-1 px-2.5 py-1 text-[10px] uppercase font-bold border border-black/20 dark:border-white/20 hover:border-black dark:hover:border-white transition-all"
               >
-                {copied ? <Check className="w-3 h-3 text-emerald-500" /> : <Copy className="w-3 h-3" />}
+                {copied ? <Check className="w-3 h-3 text-[#ff3b20]" /> : <Copy className="w-3 h-3" />}
                 <span>{copied ? 'COPIED' : 'COPY'}</span>
               </button>
             </div>
@@ -166,7 +166,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
               {/* Status Notice */}
               {status === 'success' && (
-                <div className="p-3 bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs leading-relaxed">
+                <div className="p-3 bg-[#ff3b20]/10 border border-[#ff3b20]/30 text-[#ff3b20] text-xs leading-relaxed">
                   {contact.statusCopy.success}
                 </div>
               )}

@@ -20,13 +20,13 @@ export default function ThemeToggle({ theme, onThemeChange, className = '' }: Th
       title={`Switch to ${isDark ? 'light' : 'dark'} mode`}
     >
       <span className="text-black/50 dark:text-white/50 text-[10px]">THEME:</span>
-      <span className={`font-bold tracking-wider ${isDark ? 'text-amber-400' : 'text-black dark:text-white'}`}>
+      <span className="font-bold tracking-wider text-black dark:text-white">
         {isDark ? 'DARK' : 'LIGHT'}
       </span>
       <span
         className={`w-2 h-2 rounded-full transition-colors ${
           isDark
-            ? 'bg-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.7)]'
+            ? 'bg-white shadow-[0_0_8px_rgba(255,255,255,0.7)]'
             : 'bg-[#ff3b20] shadow-[0_0_8px_rgba(255,59,32,0.7)]'
         }`}
       />

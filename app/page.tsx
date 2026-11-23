@@ -65,7 +65,7 @@ export default function HomePage() {
       <ProjectsSection />
 
       {/* ── 03. CODE ACTIVITY & TELEMETRY (GITHUB, LEETCODE, CODECHEF) ── */}
-      <ActivitySection />
+      <ActivitySection onOpenContact={() => setIsContactOpen(true)} />
 
       {/* ── 04. RESEARCH & PUBLICATIONS ── */}
       <ResearchSection />
@@ -74,7 +74,7 @@ export default function HomePage() {
       <CareerSection />
 
       {/* ── 06. FOOTER ── */}
-      <footer className="w-full border-t border-black/[0.08] dark:border-white/[0.08] py-16 px-6 sm:px-10 lg:px-16 max-w-[1720px] mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8 font-mono text-xs text-black/60 dark:text-white/60">
+      <footer className="w-full py-16 px-6 sm:px-10 lg:px-16 max-w-[1720px] mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-8 font-mono text-xs text-black/60 dark:text-white/60">
         <div>
           <span className="font-bold text-black dark:text-white tracking-widest text-sm uppercase block mb-1">
             DEVANSH KUMAR // DEVANTARIS
