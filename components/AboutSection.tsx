@@ -140,14 +140,8 @@ export default function AboutSection() {
         {/* Timeline Header */}
         <div className="flex flex-col sm:flex-row items-start sm:items-baseline justify-between gap-3 pb-6 border-b border-black/15 dark:border-white/15 mb-10">
           <div>
-            <div className="flex items-center gap-2 mb-1.5">
-              <span className="w-2 h-2 rounded-full bg-[#ff3b20]" />
-              <span className="font-mono text-xs font-bold tracking-[0.2em] text-[#ff3b20] uppercase">
-                02.B // PROGRESSIVE MILESTONES
-              </span>
-            </div>
             <h3 className="text-3xl sm:text-4xl font-black text-black dark:text-white uppercase tracking-tight">
-              ENGINEERING TIMELINE
+              TIMELINE
             </h3>
             <p className="font-mono text-xs sm:text-[13px] text-black/60 dark:text-white/60 mt-2 max-w-2xl leading-relaxed">
               A deterministic trajectory spanning foundational computer science, executive governance, first-author ML research, and production distributed systems.
