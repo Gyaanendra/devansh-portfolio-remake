@@ -39,7 +39,7 @@ export default function HomePage() {
     setCurrentTheme(nextTheme);
     try {
       localStorage.setItem('dk-portfolio-theme', nextTheme);
-    } catch {}
+    } catch { }
     document.documentElement.dataset.theme = nextTheme;
     if (nextTheme === 'dark') {
       document.documentElement.classList.add('dark');

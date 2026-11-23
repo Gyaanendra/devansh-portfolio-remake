@@ -11,10 +11,10 @@ export default function AboutSection() {
     >
       {/* ── 02. CORE EDITORIAL COMPOSITION (FUSING IMAGE 1 & IMAGE 2 DIRECTLY ON THE CANVAS) ── */}
       <div className="w-full grid grid-cols-1 lg:grid-cols-12">
-        
+
         {/* ── LEFT COLUMN: MULTI-LAYER PORTRAIT STACK (EXACT IMAGE 1 & 2 LAYERING) ── */}
         <div className="lg:col-span-5 relative w-full aspect-[4/5] sm:aspect-[1/1] lg:aspect-auto lg:min-h-[660px] flex items-end justify-center overflow-hidden">
-          
+
           {/* Layer 1: Solid Red Vertical Rectangle (Exact Reference Match) */}
           <div
             className="absolute top-0 right-0 bottom-0 w-[54%] bg-[#ff3b20] z-0"
@@ -55,7 +55,7 @@ export default function AboutSection() {
 
         {/* ── RIGHT COLUMN: BRUTALIST EDITORIAL GRID & CONDENSED TYPOGRAPHY ── */}
         <div className="lg:col-span-7 flex flex-col justify-between border-t lg:border-t-0 lg:border-l border-black/15 dark:border-white/15">
-          
+
           {/* Top Headline Block (Image 2 Inspiration) */}
           <div className="p-7 sm:p-9 lg:p-12 border-b border-black/15 dark:border-white/15">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-black dark:text-white uppercase tracking-tight leading-[1.05] mb-4">
@@ -95,7 +95,7 @@ export default function AboutSection() {
 
           {/* Bottom Row: Giant Condensed "FUTURE" Typography Grid (Exact Image 1 Match) */}
           <div className="relative w-full flex-1 min-h-[200px] sm:min-h-[260px] lg:min-h-[300px] grid grid-cols-12 overflow-hidden select-none">
-            
+
             {/* Column A (Cols 1-3): Stacked "F" over "T" */}
             <div className="col-span-3 grid grid-rows-2 border-r border-black/15 dark:border-white/15">
               <div className="flex items-center justify-center p-2 border-b border-black/15 dark:border-white/15">
@@ -136,7 +136,7 @@ export default function AboutSection() {
 
       {/* ── 03. CHRONOLOGICAL TIMELINE (EXACT REFERENCE IMAGE 2 BOTTOM HALF) ── */}
       <div className="w-full pt-16 sm:pt-20">
-        
+
         {/* Timeline Header (Image 2 Exact Layout) */}
         <div className="flex flex-col sm:flex-row items-start sm:items-baseline justify-between gap-3 pb-6 border-b border-black/15 dark:border-white/15 mb-10">
           <div>
@@ -154,7 +154,7 @@ export default function AboutSection() {
 
         {/* 4-Stage Stair-Step Grid with Red Horizontal Level Bars (Image 2 Exact Match) */}
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x divide-black/15 dark:divide-white/15 min-h-[220px]">
-          
+
           {/* Phase 01: Low Step Bar */}
           <div className="flex flex-col justify-between pr-0 lg:pr-8">
             <div>

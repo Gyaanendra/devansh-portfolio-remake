@@ -23,8 +23,8 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
     titleMode === 'dev'
       ? 'text-[120px] sm:text-[170px] md:text-[220px] lg:text-[260px] xl:text-[300px]'
       : titleMode === 'folio'
-      ? 'text-[95px] sm:text-[135px] md:text-[175px] lg:text-[210px] xl:text-[240px]'
-      : 'text-[70px] sm:text-[100px] md:text-[130px] lg:text-[155px] xl:text-[180px]';
+        ? 'text-[95px] sm:text-[135px] md:text-[175px] lg:text-[210px] xl:text-[240px]'
+        : 'text-[70px] sm:text-[100px] md:text-[130px] lg:text-[155px] xl:text-[180px]';
 
   const scrollToSection = (id: string) => {
     setMenuOpen(false);
@@ -38,7 +38,7 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
 
   return (
     <section className="relative w-full min-h-screen bg-[#f7f7f8] dark:bg-[#0c0c0e] text-[#111114] dark:text-[#f3f4f6] flex flex-col justify-between overflow-hidden transition-colors duration-500">
-      
+
       {/* ── TOP EDITORIAL HEADER (Exact Reference Match) ── */}
       <header className="relative z-40 w-full px-6 sm:px-10 lg:px-14 pt-8 pb-4 flex items-center justify-between">
         {/* Left: +1 and Nav links */}
@@ -145,7 +145,7 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
 
       {/* ── MAIN HERO BODY ── */}
       <div className="relative z-20 flex-1 w-full max-w-[1720px] mx-auto px-6 sm:px-10 lg:px-14 flex flex-col justify-center my-auto py-4 sm:py-8 lg:py-12">
-        
+
         {/* ── TOP EDITORIAL MICRO-DATA (Exact Reference Match: 2 Fine Columns on Top of dev.) ── */}
         <div className="w-full grid grid-cols-1 md:grid-cols-12 gap-6 mb-3 lg:mb-6">
           <div className="md:col-span-4 lg:col-span-3 text-[10.5px] font-mono tracking-wider">
@@ -169,7 +169,7 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
 
         {/* ── CORE COMPOSITION: GIANT WORD + BOLD ACCENT STRIP + CUTOUT FIGURE ── */}
         <div className="relative w-full flex flex-col lg:flex-row items-stretch lg:items-center justify-between min-h-[440px] sm:min-h-[520px] lg:min-h-[620px]">
-          
+
           {/* LEFT: GIANT "dev." & STENCIL "001" */}
           <div className="relative z-10 flex flex-col justify-between self-stretch lg:max-w-[45%] py-2">
             <div>
@@ -204,11 +204,11 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
                   {/* First Digit 0 (Segmented Stadium) */}
                   <rect x="2" y="4" width="40" height="54" rx="15" stroke="currentColor" strokeWidth="8" fill="none" />
                   <line x1="8" y1="31" x2="36" y2="31" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
-                  
+
                   {/* Second Digit 0 */}
                   <rect x="52" y="4" width="40" height="54" rx="15" stroke="currentColor" strokeWidth="8" fill="none" />
                   <line x1="58" y1="31" x2="86" y2="31" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
-                  
+
                   {/* Third Digit 1 */}
                   <line x1="120" y1="4" x2="120" y2="58" stroke="currentColor" strokeWidth="9" strokeLinecap="round" />
                   <line x1="106" y1="18" x2="120" y2="4" stroke="currentColor" strokeWidth="8" strokeLinecap="round" />
@@ -230,7 +230,7 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
 
           {/* ── RIGHT ACCENT BLOCK & DEVANSH CUTOUT STACK ── */}
           <div className="relative w-full lg:w-[58%] xl:w-[62%] h-[380px] sm:h-[480px] lg:h-[600px] xl:h-[660px] flex items-end justify-center lg:justify-end mt-6 lg:mt-0">
-            
+
             {/* 1. DEVANSH KUMAR CUTOUT (Layered at z-10 behind the translucent red banner) */}
             <motion.div
               initial={{ opacity: 0, y: 60, scale: 0.97 }}
@@ -252,16 +252,15 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
                       activePose === 1
                         ? '/images/devansh-hero-cutout-1-tight-bw-enhanced.png'
                         : activePose === 2
-                        ? '/images/devansh-hero-cutout-2-tight-bw-enhanced.png'
-                        : '/images/devansh-hero-cutout-1-tight-enhanced.png'
+                          ? '/images/devansh-hero-cutout-2-tight-bw-enhanced.png'
+                          : '/images/devansh-hero-cutout-1-tight-enhanced.png'
                     }
                     alt="Devansh Kumar — Systems Architecture & Applied ML"
                     width={activePose === 2 ? 1132 : 1786}
                     height={activePose === 2 ? 1202 : 1414}
                     priority
-                    className={`h-full w-auto object-contain object-bottom drop-shadow-[0_28px_56px_rgba(0,0,0,0.35)] ${
-                      activePose === 3 ? '' : 'grayscale contrast-[1.12]'
-                    }`}
+                    className={`h-full w-auto object-contain object-bottom drop-shadow-[0_28px_56px_rgba(0,0,0,0.35)] ${activePose === 3 ? '' : 'grayscale contrast-[1.12]'
+                      }`}
                     style={
                       activePose === 3
                         ? { filter: 'contrast(1.06) brightness(1.02)' }

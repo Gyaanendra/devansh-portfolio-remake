@@ -8,7 +8,7 @@ import { publications } from '@/data';
 export default function ResearchSection() {
   return (
     <section id="research" className="relative w-full py-20 sm:py-28 px-6 sm:px-10 lg:px-14 max-w-[1720px] mx-auto">
-      
+
       {/* ── 01. EDITORIAL HEADER WITH CORAL '+' MARKERS (Reference Match) ── */}
       <div className="mb-12 sm:mb-16">
         <div className="flex items-center gap-2 mb-3">
@@ -20,20 +20,20 @@ export default function ResearchSection() {
 
         {/* Big Bold Swiss Typographic Headline */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-black dark:text-white uppercase tracking-tight leading-[1.08] max-w-5xl">
-          REVISIONS ISSUED <span className="text-[#ff3b20] font-light mx-2">+</span> 
-          FIRST-AUTHOR MANUSCRIPTS <span className="text-[#ff3b20] font-light mx-2">+</span> 
+          REVISIONS ISSUED <span className="text-[#ff3b20] font-light mx-2">+</span>
+          FIRST-AUTHOR MANUSCRIPTS <span className="text-[#ff3b20] font-light mx-2">+</span>
           IEEE CITATIONS
         </h2>
         <p className="font-mono text-xs sm:text-sm text-black/60 dark:text-white/60 uppercase tracking-widest mt-4 max-w-3xl leading-relaxed">
-          FORMAL UNCERTAINTY QUANTIFICATION <span className="text-[#ff3b20]">+</span> 
-          HIGH-THROUGHPUT ML DECISIONING <span className="text-[#ff3b20]">+</span> 
+          FORMAL UNCERTAINTY QUANTIFICATION <span className="text-[#ff3b20]">+</span>
+          HIGH-THROUGHPUT ML DECISIONING <span className="text-[#ff3b20]">+</span>
           PUBLISHED PHYSICAL SYSTEMS
         </p>
       </div>
 
       {/* ── 02. HERO COMPOSITION: GIANT RED 'RESEARCH' OVERLAPPING B&W SCHEMATICS (Exact Reference Match) ── */}
       <div className="relative w-full mb-16 sm:mb-20 overflow-hidden border border-black/15 dark:border-white/15 bg-black/[0.015] dark:bg-white/[0.015] p-4 sm:p-6 lg:p-8">
-        
+
         {/* Top Tag / Pill Button (Reference Match: "ЗАБРОНИРОВАТЬ") */}
         <div className="flex justify-center mb-4 sm:mb-6">
           <a
@@ -49,7 +49,7 @@ export default function ResearchSection() {
 
         {/* Dual Visual Image/Schematic Grid */}
         <div className="relative w-full grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 min-h-[340px] sm:min-h-[420px] lg:min-h-[480px]">
-          
+
           {/* Visual Panel 1: Staged MARI Uncertainty Schematic */}
           <div className="relative w-full h-full min-h-[220px] sm:min-h-[300px] bg-black/[0.03] dark:bg-white/[0.03] border border-black/10 dark:border-white/10 overflow-hidden flex flex-col justify-between p-5">
             <div className="flex items-center justify-between text-[10px] font-mono tracking-widest text-black/50 dark:text-white/50 uppercase z-10">
@@ -152,7 +152,7 @@ export default function ResearchSection() {
 
         {/* 4-Corner Box with Abstract Red Geometric Lissajous Loop in Center */}
         <div className="relative w-full border border-black/15 dark:border-white/15 bg-white dark:bg-[#111114] p-8 sm:p-12 lg:p-16 min-h-[380px] sm:min-h-[420px] flex flex-col justify-between">
-          
+
           {/* Top Row: Corners 1 & 2 */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 relative z-10">
             {/* Top-Left */}

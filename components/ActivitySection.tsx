@@ -161,7 +161,7 @@ export default function ActivitySection({ onOpenContact }: ActivitySectionProps)
           03. IDENTITY & TELEMETRY ROW (MATCHING HERO & ABOUT GRID)
           ═══════════════════════════════════════════════════════════════ */}
       <div className="w-full grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-black/10 dark:divide-white/10 mb-0">
-        
+
         {/* ── LEFT: IDENTITY, HEADLINE & LIVE CLOCK (5 Cols) ── */}
         <div className="lg:col-span-5 p-6 sm:p-8 flex flex-col justify-between min-h-[320px] sm:min-h-[360px]">
           {/* Top Bar */}
@@ -307,7 +307,7 @@ export default function ActivitySection({ onOpenContact }: ActivitySectionProps)
           04. BOTH HEATMAPS IN THE SAME ROW (SIDE BY SIDE, NO EMPTY SPACE)
           ═══════════════════════════════════════════════════════════════ */}
       <div className="w-full grid grid-cols-1 xl:grid-cols-2 divide-y xl:divide-y-0 xl:divide-x divide-black/10 dark:divide-white/10 mt-6">
-        
+
         {/* ── HEATMAP 1: GITHUB ACTIVITY (Left Side of Row) ── */}
         <div className="p-6 sm:p-8 flex flex-col justify-between">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-5">
@@ -336,11 +336,10 @@ export default function ActivitySection({ onOpenContact }: ActivitySectionProps)
                   <button
                     key={yr ?? 'all'}
                     onClick={() => setSelectedYearGithub(yr)}
-                    className={`px-1.5 py-0.5 border ${
-                      selectedYearGithub === yr
-                        ? 'border-black dark:border-white text-black dark:text-white font-bold bg-black/5 dark:bg-white/10'
-                        : 'border-transparent hover:border-black/20 dark:hover:border-white/20'
-                    }`}
+                    className={`px-1.5 py-0.5 border ${selectedYearGithub === yr
+                      ? 'border-black dark:border-white text-black dark:text-white font-bold bg-black/5 dark:bg-white/10'
+                      : 'border-transparent hover:border-black/20 dark:hover:border-white/20'
+                      }`}
                   >
                     {yr ?? 'ALL'}
                   </button>
@@ -414,11 +413,10 @@ export default function ActivitySection({ onOpenContact }: ActivitySectionProps)
                   <button
                     key={yr ?? 'all'}
                     onClick={() => setSelectedYearLeetcode(yr)}
-                    className={`px-1.5 py-0.5 border ${
-                      selectedYearLeetcode === yr
-                        ? 'border-black dark:border-white text-black dark:text-white font-bold bg-black/5 dark:bg-white/10'
-                        : 'border-transparent hover:border-black/20 dark:hover:border-white/20'
-                    }`}
+                    className={`px-1.5 py-0.5 border ${selectedYearLeetcode === yr
+                      ? 'border-black dark:border-white text-black dark:text-white font-bold bg-black/5 dark:bg-white/10'
+                      : 'border-transparent hover:border-black/20 dark:hover:border-white/20'
+                      }`}
                   >
                     {yr ?? 'ALL'}
                   </button>
@@ -468,7 +466,7 @@ export default function ActivitySection({ onOpenContact }: ActivitySectionProps)
           05. ABSTRACT HIGH-TECH GRAPHS IN THE SAME ROW (2 COLUMNS)
           ═══════════════════════════════════════════════════════════════ */}
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-black/10 dark:divide-white/10 mt-6">
-        
+
         {/* ── FIG. 01 // LEETCODE ALGORITHMS & DS GRAPH ── */}
         <div className="p-6 sm:p-8 flex flex-col justify-between">
           <div>
