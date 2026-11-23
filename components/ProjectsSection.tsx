@@ -53,13 +53,6 @@ export default function ProjectsSection() {
       {/* ── 01. SECTION HEADER WITH CORAL '+' MARKERS ── */}
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 mb-16 sm:mb-20">
         <div>
-          <div className="flex items-center gap-2 mb-3">
-            <span className="font-mono text-xs font-bold tracking-[0.25em] text-[#ff3b20] uppercase">
-              02 // SELECTED WORK — PRODUCTION ARCHITECTURES
-            </span>
-            <span className="text-[#ff3b20] font-black text-sm">+</span>
-          </div>
-
           <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black tracking-tight text-black dark:text-white uppercase leading-[1.08]">
             BUILT, TESTED, SHIPPED <span className="text-[#ff3b20] font-light mx-2">+</span> DETERMINISTIC TOOLS
           </h2>

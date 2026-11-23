@@ -238,9 +238,6 @@ export default function NotFoundPage() {
 
             {/* Monumental Chapter Title (Melchior / INTJ Editorial Style) */}
             <div className="space-y-1.5 lg:space-y-2 pt-1">
-              <div className="flex items-center gap-2 font-mono text-[9px] lg:text-[10px] font-bold text-[#ff3b20] tracking-widest uppercase">
-                <span>06 // SYSTEM EXCEPTION +</span>
-              </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-black uppercase tracking-tight leading-[1.05]">
                 THIS CHAPTER HAS NOT YET BEEN DISCOVERED.
               </h1>
@@ -448,9 +445,6 @@ export default function NotFoundPage() {
 
               {/* Headline */}
               <div className="space-y-2">
-                <span className="font-mono text-[10px] font-bold text-[#ff3b20] tracking-widest uppercase block">
-                  06 // SYSTEM EXCEPTION +
-                </span>
                 <h1 className="text-2xl sm:text-3xl font-black text-black uppercase tracking-tight leading-tight">
                   THIS CHAPTER HAS NOT YET BEEN DISCOVERED.
                 </h1>

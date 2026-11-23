@@ -12,13 +12,6 @@ export default function CareerSection() {
       
       {/* ── 01. EDITORIAL HEADER WITH CORAL '+' MARKERS (Reference Match) ── */}
       <div className="mb-12 sm:mb-16">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="font-mono text-xs font-bold tracking-[0.25em] text-[#ff3b20] uppercase">
-            05 // PATH &amp; CHRONOLOGY
-          </span>
-          <span className="text-[#ff3b20] font-black text-sm">+</span>
-        </div>
-
         {/* Big Bold Swiss Typographic Headline */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-black dark:text-white uppercase tracking-tight leading-[1.08] max-w-5xl">
           SHIPPING WHILE LEADING <span className="text-[#ff3b20] font-light mx-2">+</span> 
@@ -38,15 +31,8 @@ export default function CareerSection() {
         {/* ── LEFT COLUMN: EDITORIAL OVERVIEW + DUAL PHOTOS + PANORAMIC LANDSCAPE (7 COLS) ── */}
         <div className="lg:col-span-7 flex flex-col justify-between space-y-8">
           
-          {/* Section Tag + Two Editorial Paragraphs (Reference Match: "О ТУРЕ +") */}
+          {/* Editorial Paragraphs */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="font-mono text-xs font-bold tracking-[0.25em] uppercase text-black dark:text-white">
-                ABOUT LEADERSHIP &amp; ENGINEERING
-              </span>
-              <span className="text-[#ff3b20] font-black text-sm">+</span>
-            </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 font-sans text-xs sm:text-[13px] text-black/70 dark:text-white/70 leading-relaxed">
               <p>
                 As Outgoing Chairperson of IEEE Student Branch (Bennett University), I directed a 100+ member vertical structure across tech tracks, secured ₹1.48L+ corporate sponsorships, and led Global AI Summit 2.0 for 3,500+ attendees.

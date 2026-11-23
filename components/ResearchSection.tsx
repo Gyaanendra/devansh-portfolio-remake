@@ -11,13 +11,6 @@ export default function ResearchSection() {
 
       {/* ── 01. EDITORIAL HEADER WITH CORAL '+' MARKERS (Reference Match) ── */}
       <div className="mb-12 sm:mb-16">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="font-mono text-xs font-bold tracking-[0.25em] text-[#ff3b20] uppercase">
-            04 // RESEARCH &amp; CITATIONS
-          </span>
-          <span className="text-[#ff3b20] font-black text-sm">+</span>
-        </div>
-
         {/* Big Bold Swiss Typographic Headline */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-black text-black dark:text-white uppercase tracking-tight leading-[1.08] max-w-5xl">
           REVISIONS ISSUED <span className="text-[#ff3b20] font-light mx-2">+</span>

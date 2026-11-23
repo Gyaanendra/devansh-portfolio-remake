@@ -173,11 +173,6 @@ export default function HeroSection({ onOpenContact, onExploreProjects, theme, o
           {/* LEFT: GIANT "dev." & STENCIL "001" */}
           <div className="relative z-10 flex flex-col justify-between self-stretch lg:max-w-[45%] py-2">
             <div>
-              <div className="mb-2">
-                <span className="font-mono text-[10px] sm:text-[11px] tracking-[0.24em] text-[#ff3b20] uppercase font-bold">
-                  DEVANSH KUMAR // PORTFOLIO 2026
-                </span>
-              </div>
               <motion.h1
                 key={titleMode}
                 initial={{ opacity: 0, x: -20 }}
